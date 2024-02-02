@@ -1,4 +1,6 @@
 # roman-numbers
-Code challenge to conveert roman numerals to integer
+Code challenge to convert between roman numerals and integers with javascript
 
 Try it here https://vimartinez.github.io/roman-numbers/
+
+
