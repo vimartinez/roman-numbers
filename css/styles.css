@@ -745,7 +745,7 @@ Header
   margin: 5rem 0;
   text-align: center; }
   .header .logo {
-    width: 580px;
+    width: 630px;
     margin: 0 auto;
     position: relative; }
     .header .logo h1 {
@@ -778,7 +778,7 @@ Header
       text-transform: uppercase;
       text-align: center;
       position: absolute;
-      bottom: -100px; }
+      bottom: -80px; }
 
 /*--------------------------------------------------
 Navbar
@@ -1004,7 +1004,7 @@ Top Bar
     right: 20px;
     width: 15px;
     height: 15px;
-    background-repead: no-repeat;
+    background-repeat: no-repeat;
     background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAPCAYAAAA71pVKAAAAYElEQVQoU2NkYGD4D8SMQEwq+A/TRKoBYPXINhJrAFwdunMJGYAij82vuAzAEMcVUOgKsRqIL5RhGnB6hVAU4Q0DmthMtp/JDm2y45mQRljax0hhxGpEMQAU2qRqhBsAAMdkHQ5jnOygAAAAAElFTkSuQmCC);
     cursor: pointer;
     opacity: .5; }
@@ -1041,7 +1041,7 @@ Top Bar
     -ms-border-radius: 0;
     -o-border-radius: 0;
     border-radius: 0;
-    font-size: 28px;
+   /* font-size: 28px;*/
     border: none;
     background-color: transparent;
     color: #1a1a1a;
@@ -1436,7 +1436,7 @@ Footer
 footer {
   border-top: 1px solid #f9f9f9;
   background-color: #fcfcfc;
-  padding: 60px 0 10px 0;
+  padding: 20px 0 10px 0;
   text-align: center; }
   footer .copyright {
     float: none;
@@ -1488,9 +1488,9 @@ Responsive
     line-height: 1.7; }
   .active.search-box {
     padding: 4em 2em; }
-    .active.search-box input[type=text] {
+   /* .active.search-box input[type=text] {
       font-size: 36px;
-      height: 41px; }
+      height: 41px; }*/
   .nav ul li a {
     padding: 0px 6px;
     font-size: 13px;
@@ -1508,14 +1508,14 @@ Responsive
     .search-box .btn-close:hover {
       opacity: 1; }
   .search-box .help {
-    margin-top: 70px;
+   /* margin-top: 70px;*/
     font-size: 12px;
     line-height: 1.7; }
   .active.search-box {
     padding: 6em; }
     .active.search-box input[type=text] {
-      font-size: 50px;
-      height: 61px; }
+      /*font-size: 50px;*/
+     /* height: 61px;*/ }
   .nav ul li a {
     padding: 0px 30px;
     font-size: 14px;
@@ -1569,4 +1569,5 @@ Responsive
 
     #table{
       width: 250px;
+      margin: auto;
     }
